@@ -1,0 +1,277 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+    
+    body{
+        margin: 0 auto;
+        width: 100%;
+       
+        background-color: hsl(193, 100%, 96%);
+        background-image: url("bg-hero-desktop.svg");
+        background-size: cover;
+        max-width: 1400px;
+    
+    }
+    H1, H2, H3, H4, H5{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    p{
+        font-weight: 400;
+    }
+    p a button{
+        font-family: 'Open sans', sans-serif;
+    }
+    #logo{
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+        width: 100%;
+    }
+
+
+    .art{
+        padding-bottom: 10rem;
+    }
+    .fir{
+        outline: 0;
+        padding: 0.5rem 3rem;
+        background-color: #ffffff;
+        border-radius: 25px;
+        border: 1px solid black;
+        font-family: 'Open sans' sans-serif;
+
+    }
+.row1{display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    padding: 2rem 3rem 2rem 3rem;
+    width: 50%;   
+}
+.fimg{
+    padding: 2rem 3rem 2rem 3rem;
+    width: 50%;
+}
+.mage{
+    width: 100%;
+   
+}
+h1{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+#ppa{
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+
+}
+#port{
+    margin-bottom: 5rem;
+    padding: 0.7rem 1.5rem;
+    background-color: hsl(322, 100%, 66%);
+    outline: 0;
+    border: 0;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+.two{
+    
+    padding: 7.5rem 3.5rem 15rem;
+    background-color: #ffffff;
+    width: 100%;
+}
+.baw{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.daw{
+    padding: 2.5rem 2.5rem 2.5rem 5rem;
+}
+.sop{
+    width: 100%;
+}
+.three{
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 15rem 3rem 3rem;
+    background-color: hsl(192, 100%, 9%);
+    position: relative;
+    width: 100%;
+}
+.five{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+border-radius: 0.5rem;
+width: 50%;
+margin: 0 auto;
+padding: 4rem 3rem;
+background-color: #ffffff;
+position: absolute;
+margin-top: -100px;
+top: 0;
+left: 0;
+right: 0;
+text-align: center;
+}
+#emt{
+    margin-top: 1.5rem;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: black;
+    color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.cony{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100%;
+}
+  #low1{
+    margin-right: 4rem;
+    width: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-right: ;
+    margin-bottom: ;
+   
+}
+
+.begin{
+    display: flex;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+.begin img{
+    margin-right: 0.5rem;
+}
+
+ .low2, .low3{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+     
+    padding-left: 0;
+    
+}
+
+
+.low2 a, .low3 a{color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+}
+.bot{
+    display: flex;
+    justify-content: ;
+    margin: 0;
+    width: 100%;
+}
+.bot img{
+    margin-top: 0;
+   width: 40px; 
+
+}
+  .copy{
+    color: #ffffff;
+    text-align: right;
+}
+@media screen and (max-width:375px) {
+    #logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3rem;
+        width: 100%;
+    }
+    .row1{display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .baw{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .cony{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .begin{
+        display: flex;
+        flex-direction:;
+        color: #ffffff;
+        margin-bottom: 1.5rem;
+    }
+  
+    .bot{
+        display: flex;
+        flex-direction: ;
+        justify-content: center;
+       
+        margin: 0;
+        width: 100%;
+    }
+    .bot img{
+        margin-top: 0;
+       width: 40px; 
+       
+    }
+
+    .copy{
+        color: #ffffff;
+        text-align: center;
+    }
+}

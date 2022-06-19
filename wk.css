@@ -1,0 +1,14 @@
+
+body{
+    background-color: green;
+}
+.vat{
+    display: flex;
+}
+.bon{
+    display: flex;
+    flex-direction: column;
+}
+.vat #ert{
+    display: flex;
+}
